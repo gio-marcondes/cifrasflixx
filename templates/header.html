@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>{{ titulo }}</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/app.css">
+
+
+
+</head>
+
+<body class="light">
+<div id="loadingOverlay">
+    <div class="spinner"></div>
+</div>
+
+<header class="topBar">
+    <div class="logo"><a href="/">🎸 CifrasFlix</a></div>
+    <!-- Botão Entrar -->
+    <!-- Modal de Login -->
+    <div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Entrar</h2>
+        
+        <button class="login-option">👤 Entrar com e-mail e senha</button>
+        <button class="login-option">G Entrar com o Google</button>
+        <button class="login-option">f Entrar com o Facebook</button>
+        <button class="login-option"> Entrar com a Apple</button>
+        
+        <p><a class="backBtn" href="#">Esqueci minha senha</a></p>
+        <p>Não tem uma conta? </P><p><a class="backBtn" href="#">Cadastre-se</a></p>
+    </div>
+    </div>
+ 
+    <nav class="menu">
+        <a href="/">Home</a>
+        <a href="/favoritos">Favoritos</a>
+        <a href="/stats">Relatorios</a>
+         <a href="/albuns">Albuns</a>
+        <a href="/importar">Importar</a>
+        <a href="/atualizarfoto">Fotos</a>
+        <a href="/pegarfotos">Wallpapers</a>
+        
+        <a href="/admin">Admin</a>
+        <a href="/mb_album">MusicBrainz</a>
+    </nav>
+   <div class="busca-container">        
+    <input type="text" id="busca" placeholder="Buscar musica ou artista..." autocomplete="off">
+    <div id="resultado" class="list-container" style="display: none;"></div>
+</div>
+    
+
+   <button type="button" onclick="toggleDark()" class="darkToggle" aria-label="Alternar tema">
+    🌙
+    </button>    <button type="button" id="loginBtn" class="loginButton">Entrar</button>
+
+</header>
+
+<main>
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="http://jtab.tardate.com/css/jtab-helper.css"/>
+<script src="https://jtab.tardate.com/javascripts/jquery.js"></script>
+<script src="https://jtab.tardate.com/javascripts/raphael.js"></script>
+<script src="https://jtab.tardate.com/javascripts/jtab.js"></script>
+<script src="/static/js/app.js"></script>

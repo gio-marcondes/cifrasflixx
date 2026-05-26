@@ -1,0 +1,76 @@
+Monteleone Cifra
+Mark Knopfler
+
+Afinação: E A D G B E
+Tecla: E
+Capotraste: 2nd traste
+
+TAB:
+
+Time signature: 3/4
+ 
+[Intro]
+| G6 | G6    | A13  | A13   |
+| G6 | G6    | A13  | A13   |
+| Em | Em/D  | A/C# | A     |
+| D  | Dmaj7 | D6   | Dmaj7 |
+| D  | Dmaj7 | D6   | Dmaj7 |
+ 
+[Verse 1]
+      D          Dmaj7  D6  Dmaj7
+The chisels are calling
+      D           Dmaj7  D6  Dmaj7
+It's time to make sawdust
+ D        A/D#       Bm         |  Bm  | Bm |
+Steely reminders of things left to do
+|G   |  G    |  G6   |   G6  |        D   Dmaj7  D6  Dmaj7
+Monteleone, a mandolin's waiting for you
+ 
+[Verse 2]
+      D          Dmaj7  D6  Dmaj7
+My fingerplane's working
+D          Dmaj7  D6  Dmaj7
+Gentle persuasion
+   D           A/D#       Bm
+I bend to the wood and I coax it to sing
+G                 G6                    D   Dmaj7  D6  Dmaj7
+Monteleone, your new one and only will ring
+G                 G6                    D   Dmaj7  D6  Dmaj7
+Monteleone, your new one and only will ring
+ 
+[Bridge]
+    Em           Em/D#       Em/D         A/C#
+The rain on the window, the snow on the gravel
+     Em        Em/D       A/C#        Cmaj7
+The seasons go by to the songs in the wood
+      D           A/C#        G/B          D/A   D/A
+Too quick or too careless, it all could unravel
+    D         A/C#  A   Bm  Bm
+It so easily could
+ 
+[Intrumental]
+| G6 | G6    | A7   | A7    |
+| G6 | G6    | A7   | A7    |
+| Em | D6    | A/C# | A7    |
+| D  | Dmaj7 | D6   | Dmaj7 |
+| D  | Dmaj7 | D6   | Dmaj7 |
+ 
+[Verse 3]
+      D          Dmaj7  D6  Dmaj7
+The chisels are calling
+      D          Dmaj7  D6  Dmaj7
+It's back for an encore
+D             A/D#         Bm
+Back to the shavings that cover the floor
+G          G6           D   Dmaj7  D6  Dmaj7
+Monteleone, a call for more
+G          G6           D   Dmaj7  D6  Dmaj7
+Monteleone, a call for more
+ 
+[Outro]
+| G6 | G6    | A7   | A7    |
+| G6 | G6    | A7   | A7    |
+| Em | D6    | A/C# | A7    |
+| D  | Dmaj7 | D6   | Dmaj7 |
+| D  | Dmaj7 | D6   | Dmaj7 |
+| D/A| D/A   |

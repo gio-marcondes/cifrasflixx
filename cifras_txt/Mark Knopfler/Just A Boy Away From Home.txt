@@ -1,0 +1,79 @@
+Just A Boy Away From Home Cifra
+Mark Knopfler
+
+Afinação: E A D G B E
+Tecla: C
+Capotraste: 3rd traste
+
+TAB:
+
+Tuning: Standard
+Capo: 3rd fret
+Key: C
+ 
+ 
+E6 [0x9999]
+E9 [0x6777]
+ 
+ 
+                   A7                   A7
+When I was just a boy I’d be kicking a tin
+                    D9                     A7
+Take the short cut home through the loony bin
+                    A7                      A7
+I never gave much thought to the souls in there
+              Esus4             A7
+I was just a boy, too young to care
+ 
+ 
+                   A7                A7
+Well the years go by and you get to see
+                   D9           A7
+A dream’s not the same as reality
+                  A7                       A7
+Well a dream or two is going to crash and burn
+                Esus4                 A7    A7
+And that’s the way that you live and learn
+ 
+ 
+| A7 | % | D9 | A7 |
+| A7 | % | Esus4 | A7 |
+| A7 |
+ 
+                      A7                   A7
+Well it was late one night and I woke at two
+                  D9                  A7
+And I lay there thinking the way you do
+            A7                     A7
+But it’s a long dark night of the soul
+             Esus4                      A7
+When those thoughts are turning sad and old
+ 
+ 
+             A7                  A7
+And then outside on the empty street
+             D9               A7
+I heard the sound of walking feet
+                    A7            A7
+Well it was just a boy away from home
+                        Esus4                    A7
+And he was singing the song ‘You’ll Never Walk Alone’
+ 
+ 
+ 
+| A | % | E | % |
+| D | A | E | Em |
+| Bm | G | D | Bm |
+| G D/F# | Em D | C#7 | A7 |
+ 
+| D | C#7 | F#m F#m7 | Dm |
+| A | C#m | D | E6 |
+| A | Aaug | D | B7 |
+| A C#7 | D B7 | E6 | E9 |
+| A C#7 | D Bm7/E | A | Esus4 |
+ 
+| A | Aaug | D | B7 |
+| A C#7 | D B7 | E6 | E9 |
+| A C#7 | D Bm7/E |
+ 
+| A7 | D9 | Fade Out

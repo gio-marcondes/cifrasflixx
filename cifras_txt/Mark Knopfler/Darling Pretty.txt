@@ -1,0 +1,96 @@
+Darling Pretty Cifra
+Mark Knopfler
+
+Capotraste: Fechar anúncio
+
+TAB:
+
+Darling Pretty - Mark Knopfler
+transcribed by stefano (barleycorn@infinito.it)
+ 
+ 
+* in the instrumental parts, each chord name is one bar.
+ 
+* all the solos in the song are nice A major scales, very easy to figure out.
+ 
+* strange chords used: D6 is xx0202, A/C# is x42220, D/A is x00232.
+ 
+ 
+now, acoustic, medieval feeling intro:
+ 
+[Intro]
+| A    | D   | D     | A   |
+| A    | D   | Dmaj7 | E   |
+| A/C# | D   | Bm7   | C#m |
+| F#m  | C#m | Bm7   | A   |
+ 
+here the songs becomes electric:
+ 
+| A D/A | D/A A |
+| A D/A | D/A A |
+ 
+[Verse 1]
+      A            D/A D/A        A
+It’s time to come away, darling pretty
+      A            D/A         D        E
+It’s time to come away on the changing tide
+ A            D     D6      C#m
+Time to come away, darling pretty
+F#m             C#m    D      A
+And I need you darling by my side
+ 
+[Verse 2]
+ A              D/A  D/A        A
+Heal me with a smile, darling pretty
+ A              D/A       D              E
+Heal me with a smile and a heart of gold
+ A          D        D6      C#m
+Carry me awhile, my darling pretty
+F#m      C#m    D         A
+Heal my aching heart and soul
+ 
+[Solo 1]
+| A D/A  | D/A A  | A D/A   | D E   |
+| A/C# D | D6 C#m | F#m C#m | Bm7 A |
+ 
+[Bridge]
+E             A   D/A
+ Just like a castaway
+Bm7    A      Bm7      E
+ Lost upon an endless sea
+E           A  D/A
+ I saw you far away
+Bm7       A     E
+ Come to rescue me
+ 
+[Verse 3]
+ A              D/A  D/A        A
+Cast away the chains, darling pretty
+ A              D/A   D      E
+Cast away the chains away behind
+A      D         D6            C#m
+Take away my pain, my darling pretty
+F#m                 C#m        D         A
+And the chains that once were yours and mine
+ 
+[Solo 2]
+| A D/A | D/A A  | A D/A   | D E |
+| A D/A | D6 C#m | F#m C#m | D A |
+ 
+[Verse 4]
+ A                D/A D/A        A
+There will come a day, darling pretty
+ A                D/A       D         E
+There will come a day when hearts can fly
+A          D/A           D6       C#m
+Love will find a way, my darling pretty
+F#m     C#m       D       A
+  Find a heaven for you and I
+A          D/A           D6        C#m
+Love will find a way, my darling pretty
+F#m      C#m         D      A
+  Find a heaven for you and I
+ 
+[Outro, fade out]
+| A D/A  | D/A A  | A D/A   | D E   |
+| A/C# D | D6 C#m | F#m C#m | Bm7 A |

@@ -1,0 +1,94 @@
+The Fizzy And The Still Cifra
+Mark Knopfler
+
+Afinação: D G D G B D
+Tecla: G
+Capotraste: Fechar anúncio
+
+TAB:
+
+[Chords]
+G       [x00000]
+Am      [x22210]
+C/G     [x0201x]
+Bbadd9  [x33310]
+Bb6/G   [x03030]
+D       [x77777]
+F       [x57567]  or [x 10 10 10 10 10]
+C       [x55555]
+Cadd9   [x5553x]
+Cm      [x5554x]
+Cm/A    [x2554x] (could also be called Am7b5)
+Gmaj7   [x00004]
+ 
+[Intro]
+| G | Am7/G | Bb6/G | C |  C |
+| G | Am7/G | Bb6/G | C |  C |
+ 
+[Verse 1]
+G               C/G          Bb6/G
+Sunday mornin', here we are
+              C
+The boys come home
+              G
+Not quite the movie star
+ 
+[Verse 2]
+G            Am          Bbadd9
+He's been in Hollywood
+              C
+The boys come home
+C             G
+The boys done good
+ 
+[Chorus]
+D             F                C
+  He says she asked too high a price
+                 G
+Neglecting to declare
+D              F                 C
+ What sits between them there on ice
+Cm
+ Chilled with the fizzy and the still
+Cm/A                 G                Gmaj7
+ He tried but didn't make it there
+ 
+             C  Cadd9  G   Gmaj7
+It's not for me
+             C  Cadd9  G
+It's not for me
+ 
+[Solo]
+| G | C/G | Bb6/G  | C |  C |
+| G | Am  | Bbadd9 | C |  C | G | G |
+ 
+[Chorus]
+D            F                C
+ He says she asked too high a price
+C                 G
+  Neglecting to declare
+D             F                   C
+  What sits between them there on ice
+Cm
+  Chilled with the fizzy and the still
+Cm/A                  G                Gmaj7
+  He tried but didn't make it there
+ 
+             C  Cadd9  G   Gmaj7
+It's not for me
+        C Cadd9
+Not for me
+ 
+[Verse 3]
+G               C/G           Bb6/G
+ Sunday papers, here we are
+              C    C    G      Am       Bbadd9
+The boys come home
+ 
+              C
+The boys come home
+ 
+[Outro]
+| G | C/G | Bb6/G  | C |  C |
+| G | Am  | Bbadd9 | C |  C |
+| G | Am  | Bbadd9 | C |  C | G |

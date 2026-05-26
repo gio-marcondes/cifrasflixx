@@ -1,0 +1,29 @@
+{% include "header.html" %}
+   <h1>Baixar Wallpapers de Bandas</h1>
+
+    <form action="/pegarfotos" method="POST">
+        <label for="banda">Nome da Banda:</label>
+        <input type="text" id="banda" name="banda" required>
+        <br><br>
+        <label for="offset">Offset (número da primeira imagem):</label>
+        <input type="number" id="offset" name="offset" value="0" min="0">
+        <br><br>
+        <button type="submit">Baixar Wallpapers</button>
+    </form>
+
+      {% if arquivos is not none %}
+        <h2>Resultado para "{{ banda }}"</h2>
+        {% if erro %}
+            <p>{{ erro }}</p>
+        {% else %}
+            <ul>
+                {% for arquivo in arquivos %}
+                    <li>{{ arquivo }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Preview:</h3>
+            {% for arquivo in arquivos %}
+                <img src="{{ arquivo }}" alt="Wallpaper" style="max-width:300px; margin:5px;">
+            {% endfor %}
+        {% endif %}
+    {% endif %}

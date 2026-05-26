@@ -1,0 +1,166 @@
+Its Money That Matters Cifra
+Mark Knopfler
+
+Afinação: E A D G B E
+Capotraste: Fechar anúncio
+
+TAB:
+
+---------------------------------------------------------------------------
+                It's Money that Matters - Randy Newman
+---------------------------------------------------------------------------
+ 
+Written by: Randy Newman
+From: "Land of Dreams" (1988)
+ 
+Tabbed by: maguri
+Tuning: Standard
+ 
+---------------------------------------------------------------------------
+ 
+CHORDS
+          E-A-D-G-B-e
+A/D       x-x-0-2-2-0
+G/D       x-x-0-0-0-3
+D/A       x-0-x-2-3-2
+A#dim     x-1-2-0-2-0
+D/F#      2-x-0-2-3-x
+ 
+---------------------------------------------------------------------------
+ 
+RIFF
+  D        A       G       D        D        A       G       D
+e|----------------|----------------|----------------|----------------|
+B|--------------x-/8---------------|----------------|8-8-------------|
+G|----7h9-------x-/7-----7---9p7---|----7-----9---9-|7-7---7-------7-|
+D|7h9-------------|------7-------9-|7h9---x-x-7---7-|------7---------|
+A|----------------|----------------|----------------|----------------|
+E|----------------|----------------|----------------|----------------|
+ 
+---------------------------------------------------------------------------
+ 
+[Intro]
+| D A/D | G/D D |
+| D A/D | G/D D |
+ 
+[Verse 1]
+   D          A/D     G/D  D
+Of all of the people 
+     D         A/D   G/D  D
+That I used to know
+     D       A/D     G/D  D
+Most never adjusted 
+       D         A/D    G/D  D
+To the great big world
+ 
+[Verse 2]
+           D          A             G   D
+I see them lurking in book stores
+D               A             G   D
+Working for the Public Radio
+               D       A          G             D
+Carrying their babies around in a sack on their back
+       D           A     G   D
+Moving careful and slow
+ 
+[Chorus]
+     D          A         G   D
+It's money that matters
+D           A     G   D
+Hear what I say
+     D          A         G   D
+It's money that matters
+       D A   G   D
+In the USA
+ 
+[Bridge]
+Bm                           F#m           G
+All of these people are much brighter than I
+   Bm                         F#m          G
+In any fair system they would flourish and thrive
+                   D/A
+But they barely survive
+               A            A#dim     Bm    A  G  D/F#
+They eke out a living, they barely survive
+ 
+[Link]
+     A                   C
+When I was a young boy, 
+A                C
+Maybe thirteen
+         A                    C
+I took a hard look around me 
+          A                   C
+And asked what does it mean?
+ 
+[Verse 3]
+     D            A           G         D
+So I talked to my father, and he didn't know
+      D            A          G         D
+And I talked to my friend and he didn't know
+      D            A           G         D
+And I talked to my brother and he didn't know
+      D              A           G         D
+And I talked to everybody that I knew
+ 
+[Chorus]
+     D          A         G   D
+It's money that matters
+        D              A     G   D
+Now you know that it's true
+     D          A         G   D
+It's money that matters
+    D        A    G   D
+Whatever you do
+ 
+[Verse 4]
+       D           A/D     G/D  D
+Then I talked to a man 
+                D      A/D     G/D  D
+Lived up on the county line
+      D           A/D     G/D  D
+I was washing his car 
+       D         A/D     G/D  D
+With a friend of mine
+ 
+[Link]
+         A                G C
+He was a little fat guy 
+     A             G C
+In a red jumpsuit
+            A                     G C
+I said "That looks kind of funny"
+           A                 G C
+He said "I know it does, too"
+ 
+[Verse 5]
+D                       A            G           D
+ "But I got a great big house on the hill here
+D                 A             G         D
+  And a great big blonde wife inside it
+D                 A          G         D
+  And a great big pool in my backyard 
+D                   A      G         D
+  Another great big pool beside it
+ 
+[Chorus]
+           D          A         G   D
+Sonny it's money that matters, 
+D           A    G   D
+Hear what I say
+     D          A         G   D
+It's money that matters 
+       D A    G   D
+In the USA
+     D          A         G   D
+It's money that matters
+        D              A    G   D
+Now you know that it's true
+     D          A         G   D
+It's money that matters 
+    D        A    G   D
+Whatever you do"
+ 
+[Outro]
+| D A | G D |
+(repeat riff and fade)

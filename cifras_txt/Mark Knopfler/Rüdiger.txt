@@ -1,0 +1,142 @@
+Rüdiger Cifra
+Mark Knopfler
+
+Afinação: E A D G B E
+Capotraste: Fechar anúncio
+
+TAB:
+
+F6#11     1x020x
+F6        1x021x
+Em/G      3x545x
+Am        x0755x or x02210
+AmMaj7    x0655x or x02110
+Am7       x0555x or x02010
+Bm7b5     x2323x
+E         07645x or 022100
+E7        07675x
+E7b9/B    7x676x
+Bbadd13   x13333
+B9        x21222
+ 
+[Intro tab]
+   F6  F6#11      F6         F6#11
+e|-------------------|------------------|
+B|-1-----0--------1--|-------0----------|
+G|-----2--------2----|-----2------------|
+D|---0--------0------|---0----------0---|
+A|-------------------|------------------|
+E|-1--------1--------|-1--------1-------| x6
+ 
+[Intro]
+F6 F6#11
+ 
+[Verse 1]
+ Am                    E             Am  AmMaj7 Am7 AmMaj7
+Rüdiger stands in the rain and the snow
+Bm7b5          Am
+  Collector of autographs
+Bm7b5          Am
+  Names upon photographs
+ Dm       Am        G          F6  F6#11
+Faces of people who everyone knows
+ 
+[Verse 2]
+ Am                  E          Am  AmMaj7 Am7 AmMaj7
+Rüdiger lives in a place on his own
+Bm7b5             Am
+  Briefcase and spectacles
+Bm7b5             Am
+  Strange and respectable
+Dm            Am         G      F6   F6#11
+He knows the meaning of being alone
+ 
+[Chorus]
+ G   Am  G/B  C   F  C/E
+Woh woh woh  Rüdiger
+ Dm Dm/C   G   G7/F
+Rü   di  ger
+ C/E  Am  Am/G
+Rüdi
+    Dm/F    G
+Oh Rüdiger
+ 
+[Interlude]
+| E7 E7b9/B | x4
+ 
+[Verse 3]
+ Am                  E           Am   AmMaj7 Am7 AmMaj7
+Rüdiger works as a clerk in the town
+Bm7b5       Am
+  Music or politics
+Bm7b5      Am
+  Rüdiger gets his kicks
+    Dm        Am         G          F6   F6#11
+He gets information then he comes around
+ 
+[Chorus]
+ G   Am  G/B  C   F  C/E
+Woh woh woh  Rüdiger
+ Dm Dm/C   G   G7/F
+Rü   di  ger
+ C/E  Am  Am/G
+Rüdi
+    Dm/F    G
+Oh Rüdiger
+ 
+[Interlude]
+| E7 E7b9/B | x4
+ 
+[Solo]
+| Am | AmMaj7 | Bbadd13 | B9 | Dm/F | E7 | Am | E7 |
+| Am | AmMaj7 | Bbadd13 | B9 | Dm/F | E7 | Am | Am |
+ 
+[Interlude]
+| E7 E7b9/B | x4
+ 
+[Verse 4]
+ Am                   E          Am AmMaj7 Am7 AmMaj7
+Rüdiger waits at the hall in Berlin
+Bm7b5                 Am
+  He waits there all night
+Bm7b5         Am
+  Security's tight
+      Dm         Am           G            F6   F6#11
+They know who he is but they don't let him in
+ 
+[Verse 5]
+ Am                   E7           Am AmMaj7 Am7 AmMaj7
+Rüdiger waits in the dark by the stair
+Bm7b5               Am
+  His fingers are shaking
+Bm7b5               Am
+  His feet they are aching
+          Dm            Am       G          F6   F6#11
+But your name's in the paper so Rüdiger's there
+ 
+[Chorus]
+ G   Am  G/B  C   F  C/E
+Woh woh woh  Rüdiger
+ Dm Dm/C   G   G7/F
+Rü   di  ger
+ C/E  Am  Am/G
+Rüdi
+    Dm/F    G
+Oh Rüdiger
+ 
+ C   F  C/E
+ Rüdiger
+ Dm Dm/C   G   G7/F
+Rü   di  ger
+ C/E  Am  Am/G
+Rüdi
+   Dm/F  Em/G     C
+Oh Rü - di - ger
+ 
+[Outro]
+| C          | x4
+| E7 E7b9/B  | x4
+| F6 F6#11    | x8
+| E7 E7b9/B  | x4
+| F6 F6#11    | x8
+(Fade out)

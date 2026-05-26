@@ -1,0 +1,75 @@
+Stretching Out Cifra
+Mark Knopfler
+
+Afinação: Eb Ab Db Gb Bb Eb
+Capotraste: Fechar anúncio
+
+TAB:
+
+Key: A-flat Minor
+Time: 4/4
+ 
+ 
+TUNING: Half-Step Down, but can be played in a standard tuning
+CAPO: No, but in a standard tuning can be played with a capo
+ 
+ 
+I believe all the guitars for this instrumental were tuned down half step (or 
+semitone).
+If you try this tuning, you will realise how simple things will get, but you can 
+play
+it in a standard tuning as well and with a capo, which is the easiest method.
+ 
+Only 1st and 4th strokes in the strumming pattern hit the thicker strings, and
+all the other strokes should be going on the higher strings only. Also, you
+can lift your left hand after those 1st and 4th strokes and mute the strings.
+ 
+This way you will play the rhythm just like on the record.
+ 
+ 
+The chords for Half-Step Down tuning are:
+ 
+Am........[x02210] or [577555]
+G.........[320003] or [355433]
+C.........[x32010] or [x3555x]
+F.........[133211]
+Bm7add11..[x2x230] or [7x775x]
+E7........[020130] or [x7675x]
+ 
+And the full chord chart:
+ 
+| Am | % | % | % |
+| Am | % | G | % |
+| C | F | C | F |
+| C | G | C | Bm7add11 E7 |
+ 
+ 
+Now, if you want to play it in standard tuning, use these chords:
+ 
+Abm........[466444]
+Gb.........[244322]
+B..........[x2444x] or [799877]
+E..........[022100] or [x7645x]
+Bbm7add11..[6x664x]
+Eb7........[x6564x]
+ 
+| Abm | % | % | % |
+| Abm | % | Gb | % |
+| B | E | B | E |
+| B | Gb | B | Bbm7add11 Eb7 |
+ 
+ 
+The easiest way to play it is by using a capo on the 4th fret, now chords will 
+look like this:
+ 
+Em.........[022000]
+D..........[x00232]
+G..........[320003]
+C..........[x32010]
+F#m7add11..[2x220x]
+B7.........[x21202]
+ 
+| Em | % | % | % |
+| Em | % | D | % |
+| G | C | G | C |
+| G | D | G | F#m7add11 B7 |

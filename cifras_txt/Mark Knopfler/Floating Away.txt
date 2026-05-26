@@ -1,0 +1,106 @@
+Floating Away Cifra
+Mark Knopfler
+
+Afinação: E A D G B E
+Tecla: Fm
+Capotraste: 1st traste
+
+TAB:
+
+Tuning: Standard
+Capo: 1st fret
+Key: Fm
+ 
+ 
+* Play 1st fret of 5th string followed by an open D at asterisks
+ 
+ 
+F#m7b5 [2x221x]
+Gadd9/B [x2023x]
+Bm7b5 [x2323x]
+Am/E [0x221x]
+B7b9/F# [2x121x]
+G7 [32300x]
+ 
+ 
+| Em A | Em A | Em A | Em/G A | x3
+ 
+ 
+          Em
+It’s the weight I’m trying
+    A               Em
+To get inside the frame
+           A            Em    A  Em/G  A
+I’ve been painting a fat man
+      Em              A     Em
+He’s big and fat and heavy
+      A   *      B7  F#m7b5  B7  B7
+As a man can be
+ 
+                C            C/G  Gadd9/B  G/B  Bm7b5
+But he’s been floating away
+               E7  E7  Am
+Floating away
+            D/F#                 Gadd9  G  B7
+He’s been floating away from me
+ 
+ 
+        Em        A              Em
+In the mirror my withering skin
+       A      Em      A  Em/G  A  Em
+Is a thorny pleasure
+            A
+I stand unflinching
+       Em         A    *     B7   F#m7b5  B7 B7
+And I mark each crease and sting
+ 
+     C    C          Gadd9/B
+My brush my wooden flail
+ G/B          Bm7b5  Bm7b5  Esus4  E7  Am7
+My ancient thresher
+                F#m7b5
+As unforgiving time
+  Am/E       B7   B7b9/F#  B7  B7
+Flays everything
+ 
+ 
+| Em A | Em A | Em A | Em/G A |
+| Em A | Em A * | B7 F#m7b5 | B7 |
+ 
+| C | Gadd9/B G/B | Bm7b5 | E7 |
+| Am | D/F# | Gadd9 G | B7 |
+ 
+ 
+           Em
+It’s the truth I’m trying
+    A               Em
+To get inside the frame
+         A             Em      A  Em/G  A
+Now I’m painting myself naked
+       Em             A
+But I need a pair of boots
+          Em       A     *      B7  F#m7b5  B7  B7
+About as heavy as boots can be
+ 
+            C            C  Gadd9/B  G/B  Bm7b5
+Or I’d be floating away
+               E7  E7  Am
+Floating away
+         D/F#                 Gadd9  G  G
+I’d be floating away from me
+ 
+ 
+C
+            D           G/B        C  Am  D/F#
+And every thorn sends thistledown
+         G7          G7
+Drifting all around
+      C            Gadd9/B  G/B  Bm7b5
+And floating away
+               Esus4  E7  Am
+Floating away
+  D/A                  G  B7
+Floating away from me
+ 
+ 
+| Em A | Em A | Em A | Em/G A | Fade Out

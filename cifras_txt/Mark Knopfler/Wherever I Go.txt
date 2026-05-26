@@ -1,0 +1,128 @@
+Wherever I Go Cifra
+Mark Knopfler
+
+Capotraste: 4th traste
+
+TAB:
+
+Wherever I Go by Mark Knopfler from Tracker album
+For any questions mail me to fffoma@gmail.com
+ 
+ 
+Key: B Major
+Time: 4/4
+ 
+ 
+To play without capo hit transpose button to +4 (not recommended, buy a capo!).
+ 
+ 
+As it often happens with mainly piano songs, chord voicings are quite varied.
+Some guitar chords are crucial, though, and played through the song identically.
+Basically, you can always simplify fancy chords to first letter (e.g. Cadd9 to C).
+ 
+ 
+CAPO: 4
+ 
+ 
+G5.....................[3x00xx]
+Cadd9..................[x32033] or simplify to C
+D5.....................[xx023x] or simplify to D
+Csus2..................[x30033] or simplify to C
+C/G....................[332010]
+D5/F#..................[2x023x]
+Dsus2..................[xx003x]
+ 
+ 
+| G5 |
+ 
+ 
+           G        Cadd9
+Maybe I’m bound to wander
+                       D5
+From one place to the next
+               G  Csus2 D5/F#
+Heaven knows why
+            G         Cadd9
+But in the wild blue yonder
+              D5/F#        G  C/G  G  Csus2
+Your star is fixed in my sky
+ 
+ 
+              G         C
+Just another bar at a cross roads
+             D5/F#
+So far from home
+              G     Cadd9  C  D5/F#
+But that’s alright
+              G              C
+Whenever I’m going down a dark road
+                D/F#        G     C  G
+I don’t feel alone in the night
+ 
+ 
+            C
+There’s a place in my heart
+              G         Cadd9
+Though we're far apart
+        G/B           D5/F#  Dsus2  D5/F#
+May you always know?
+           G                Cadd9
+No matter how long since I saw you
+             C            D/F#  Cadd9  Csus2
+I keep the flame there for you
+            G  C/G  G  Csus2
+Wherever I go
+ 
+ 
+| G Cadd9 | C D5/F# | G Csus2 | C D5/F# |
+| G Cadd9 | C D5/F# | G C | G |
+ 
+ 
+Am7
+                         G/B         Cadd9
+They’re looking to close up in here
+                   D5/F#  Am7
+Pulling down the blinds
+                      G/B         Csus2
+But they’ll let you stay a while
+                     D5
+They’re not going to mind
+ 
+ 
+              G          Cadd9
+Now I’ve got leave you brother
+     C           D5/F#
+So this round’s mine
+                 G   Csus2
+Here's looking at you
+        C  D5
+Anyhow
+           G             Cadd9
+You can go on and have another
+     C             D5
+They wouldn’t call time
+              G   Cadd9
+I’m going to say
+              G
+My goodbye’s now
+ 
+ 
+            C
+There’s a place in my heart
+              G         Cadd9
+Though we're far apart
+        G/B           D5/F#  Dsus2  D5/F#
+May you always know?
+           G                Cadd9
+No matter how long since I saw you
+             C            D/F#  Cadd9  Csus2
+I keep the flame there for you
+            G  C/G  G  Csus2
+Wherever I go
+ 
+ 
+| G Cadd9 | C D5/F# | G Csus2 | C D5/F# |
+| G Cadd9 | C D5/F# | G C/G | G Csus2 |
+ 
+ 
+| G5 |
