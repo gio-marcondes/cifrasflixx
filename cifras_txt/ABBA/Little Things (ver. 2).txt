@@ -1,0 +1,132 @@
+Little Things Cifra
+ABBA
+
+Afinação: E A D G B E
+Capotraste: 3rd traste
+
+TAB:
+
+Song: Little Things
+Group: ABBA
+Chord proposal: Mats Fagergren,2021
+ 
+This version contain all the slash chords needed to come close to the original 
+melody.
+ 
+OBS: use Capo on 3rd fret.
+ 
+Use the chords according to my chart below:
+      E,A,D,G,B,e
+D/F#. 2,x,0,2,3,2
+D7.   x,x,0,2,1,2
+D/A.  x,0,0,2,3,2
+G/D.  x,x,0,4,3,3
+C/E.  0,3,2,0,1,0
+E7.   0,2,0,1,0,0
+Am/G. 3,x,2,2,1,0
+D7/A. x,0,0,2,1,2
+Gmaj7 3,2,0,0,0,2
+G/B.  x,2,0,0,0,3
+C/G   3,3,2,0,1,0
+F/A.  x,0,3,2,1,1
+D7/F# 2,x,0,2,1,x
+G*    3,2,0,0,0,x
+G.    3,2,0,0,3,3
+Dmaj7 x,x,0,2,2,2
+A7.   x,0,2,0,2,0
+ 
+[intro]
+ 
+ G*    D7/F#    G G C Em   G G D7 D7   G*
+| /... | /... | / / / /  | / / /  /  | /... |
+ 
+[Verse 1]
+ 
+G                     D7/F#
+Little things like my gentle touch
+     G                 C              D
+It's amazing, darling, that so little can achieve so much
+G             A7        D      D7
+Little things like your sleepy smile
+     G                C               Em     A7        Dmaj7 D
+As a brand-new day is dawning, it's a lovely Christmas mor - ning
+D       Em               A7        D
+And why don't we stay in bed for a while?
+ 
+[pre-chorus]
+ 
+D                      G/D        C/E
+Soon enough, they'll be waking up from their dreams
+E7       Am            Am/G        D
+Children bursting with giggles and screams
+ 
+[Chorus]
+ 
+G            D7/A
+Oh, what joy Santa brings
+G/B         G           C
+Thanks, old friend, for packing
+C         G                 D7          G
+Christmas stockings full of nice little things
+ 
+[interlude]
+ 
+  G    Gmaj7 C      G
+| / / | / / | / / | / / |
+ C     G*.   D     Am
+| / / | / / | / / | / . |
+ G      D     G
+| / / | / / | / . |
+ 
+[Verse 2]
+ 
+G                       D7/F#
+Little things like your naughty eyes
+      G                 C    Am        D
+You'd consider bringing me a breakfast tray, but there's a price
+G             A7        D     D7
+Little things like that happy noise
+     G                C               Em     A7        Dmaj7 D
+As a brand-new day is dawning on this lovely Christmas mor - ning
+         Em               A7             D
+It's our children playing with their new toys
+ 
+[pre chorus]
+ 
+       G          C/G       F/A
+Little moments of happiness and of bliss
+E7      Am       Am/G        D
+Does it ever get better than this?
+ 
+[Chorus]
+ 
+G            D/A   D7
+Oh, what joy Santa brings
+G           G/B        C
+Thanks, old friend, for packing
+C          G                D7          G
+Christmas stockings full of nice little things
+ 
+N.C.       G        G/B         C
+Thank you, dear old friend, for packing
+C         G                 D7          G
+Christmas stockings full of nice little things
+ 
+ 
+[Outro]
+ 
+       G
+Little things
+         C/G      G         Em    C/E
+Like the precious jewels on rings
+     D     G             D/F#   C/E
+Or a music box that will fit in socks
+     D          G
+Tiny elves with wings
+ 
+G      C/G    G                Em     C/E
+Not as big as queens and their kings
+       D      G             D/F# C/E
+If you sing along, it could be a song
+        D       G
+that my grandma sings

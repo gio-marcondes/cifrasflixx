@@ -1,0 +1,137 @@
+Dum Dum Diddle Cifra
+ABBA
+
+Afinação: E A D G B E
+Capotraste: Fechar anúncio
+
+TAB:
+
+F#m:   244222
+F#m7:  242222
+G#m7:  464444
+G#m:   466444
+B:     x24442
+E:     022100
+A:     x02220
+A/E:   0x2220
+ 
+ 
+[Intro]
+| A/E E | % | % | % |
+ 
+ 
+[Verse 1]
+E          F#m           A          B
+I can hear how you work, practising hard
+        E              B      A
+Playing night and day, woah - oh
+E             F#m         A          B
+And it sounds better now, yes, you improve
+      E              B      A
+Every time you play, woah - oh
+ 
+ 
+[Pre-Chorus]
+        | F#m7 | G#m7 |
+But it's bad
+         | F#m7 | G#m7 |
+You're so sad
+           F#m  A/E   | B |
+And you're only smiling
+         F#m       A/E   | B |
+When you play your violin
+ 
+ 
+[Chorus]
+E                  B
+Dum-dum-diddle, to be your fiddle
+   F#m                B
+To be so near you and not just hear you
+E                  B
+Dum-dum-diddle, to be your fiddle
+  F#m                    B
+I think then maybe you'd see me, baby
+ 
+ 
+[Post-Chorus]
+A        B
+You'd be mine
+         A                   B
+And we'd be together all the time
+ 
+ 
+[Turnaround]
+            E       G#m          A       B
+Wish I was, dum-dum-diddle, your darling fiddle
+ 
+ 
+[Interlude]
+| A/E E | % | % | % |
+ 
+ 
+[Verse 2]
+E           F#m            A        B
+But I think you don't know that I exist
+        E           B      A
+I'm the quiet kind, woah - oh
+E            F#m          A           B
+From the day when I first listened to you
+            E           B      A
+You've been on my mind, woah - oh
+ 
+ 
+[Pre-Chorus]
+         | F#m7 | G#m7 |
+You don't care
+         | F#m7 | G#m7 |
+It's not fair
+           F#m  A/E   | B |
+And you're only smiling
+         F#m       A/E   | B |
+When you play your violin
+ 
+ 
+[Chorus]
+E                  B
+Dum-dum-diddle, to be your fiddle
+   F#m                B
+To be so near you and not just hear you
+E                  B
+Dum-dum-diddle, to be your fiddle
+  F#m                    B
+I think then maybe you'd see me, baby
+ 
+ 
+[Post-Chorus]
+A        B
+You'd be mine
+         A                   B
+And we'd be together all the time
+ 
+ 
+[Chorus]
+E                  B
+Dum-dum-diddle, to be your fiddle
+   F#m                B
+To be so near you and not just hear you
+E                  B
+Dum-dum-diddle, to be your fiddle
+  F#m                    B
+I think then maybe you'd see me, baby
+ 
+ 
+[Post-Chorus]
+A        B
+You'd be mine
+         A                   B
+And we'd be together all the time
+ 
+ 
+[Turnaround]
+            E       G#m          A       B
+Wish I was, dum-dum-diddle, your darling fiddle
+ 
+ 
+[Outro]
+| A/E E | % | % | % |
+(repeat and fade)

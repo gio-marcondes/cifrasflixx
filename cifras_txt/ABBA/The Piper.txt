@@ -1,0 +1,160 @@
+The Piper Cifra
+ABBA
+
+Afinação: E A D G B E
+Capotraste: Fechar anúncio
+
+TAB:
+
+"The Piper" - ABBA (B. Andersson, B. Ulvaeus)
+Album: Super Trouper released in 1980
+ 
+ 
+Recommended Chord Voicings
+A/C# = x4222x
+D/A  = x00232
+D/F# = 254232
+ 
+Recommended chord substitution for beginners and the dexterity-challenged
+Instead of playing D/F# = 254232 as above, you can substitute the DM7/F# below:
+DM7/F# = 244232
+(This is easiest because each time D/F# appears in this song,
+ you play an F#m = 244222 right before and after)
+ 
+ 
+[Intro]
+| Bm  | Bm  | Bm  | Bm  |
+ 
+ 
+[Verse 1]
+     Bm
+They came from the hills
+         Bm
+And they came from the valleys and the plains
+     Bm
+They struggled in the cold
+       Bm
+In the heat and the snow and in the rain
+Bm      A        Bm    Bm  A/C#  D  A/C#
+Came to hear him play
+Bm         A      Bm   Bm  A/C#  D  E
+Play their minds away
+ 
+ 
+[Chorus]
+A                     D/A     A
+We're all following a strange melody
+A                       D   E
+We're all summoned by a tune
+F#m                 D/F# F#m
+We're following the pi - per
+       D       E         A   E
+And we dance beneath the moon
+ 
+| A   D/A A | A   D E |
+ 
+F#m                 D/F# F#m
+We're following the pi - per
+       D       E         A    E   A
+And we dance beneath the moon for him
+       D       E         A
+And we dance beneath the moon
+ 
+ 
+[Instrumental]
+A    E    F#m C#m F#m   F#m   E    C#m G# C#m
+ 
+A    E    F#m C#m F#m   F#m   E    C#m G# C#m
+Su - ub   lu- u - na,   sa -  al - ta- a- mus
+ 
+ 
+[Interlude]
+| Bm  | Bm  | Bm  | Bm  |
+ 
+ 
+[Verse 2]
+     Bm
+They came from the south
+         Bm
+From the west and the north and from the east
+     Bm
+They waited for the man
+       Bm
+Like a parish is waiting for the priest
+Bm        A        Bm  Bm  A/C#  D  A/C#
+Longed to hear him play 
+Bm         A      Bm   Bm  A/C#  D  E
+Play their minds away 
+ 
+ 
+[Chorus]
+A                     D/A     A
+We're all following a strange melody
+A                       D   E
+We're all summoned by a tune
+F#m                 D/F# F#m
+We're following the pi - per
+       D       E         A   E
+And we dance beneath the moon
+ 
+| A   D/A A | A   D E |
+ 
+F#m                 D/F# F#m
+We're following the pi - per
+       D       E         A    E   A
+And we dance beneath the moon for him
+       D       E         A
+And we dance beneath the moon
+ 
+ 
+[Instrumental]
+A    E    F#m C#m F#m   F#m   E    C#m G# C#m
+ 
+A    E    F#m C#m F#m   F#m   E    C#m G# C#m
+Su - ub   lu- u - na,   sa -  al - ta- a- mus
+ 
+ 
+[Interlude]
+| Bm  | Bm  | Bm  | Bm  |
+ 
+ 
+[Verse 3]
+   Bm
+He came in a dream
+     Bm
+He seduced everybody in the land
+    Bm
+The fire in his eyes
+        Bm
+And the fear was a weapon in his hand
+Bm      A       Bm    Bm  A/C#  D  A/C#
+So they let him play
+Bm         A      Bm  Bm  A/C#  D  E
+Play their minds away
+ 
+ 
+[Chorus]
+A                     D/A     A
+We're all following a strange melody
+A                       D   E
+We're all summoned by a tune
+F#m                 D/F# F#m
+We're following the pi - per
+       D       E         A   E
+And we dance beneath the moon
+ 
+| A   D/A A | A   D E |
+ 
+F#m                 D/F# F#m
+We're following the pi - per
+       D       E         A    E   A
+And we dance beneath the moon for him
+       D       E         A
+And we dance beneath the moon
+ 
+ 
+[Ending]
+D   E   A E A
+ 
+       D       E         A
+And we dance beneath the moon

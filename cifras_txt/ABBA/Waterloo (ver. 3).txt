@@ -1,0 +1,100 @@
+Waterloo Cifra
+ABBA
+
+Afinação: E A D G B E
+Capotraste: Fechar anúncio
+
+TAB:
+
+Abba – Waterloo
+ 
+------------------------------------------------------------
+CHORDS
+      E-A-D-G-B-e
+E/D   x-x-0-1-0-0
+A/C#  x-4-2-2-2(0)
+G/B   x-2-0-0-3-3
+A6    x-0-4-2-2-x
+Bm/A  x-0-4-4-3(2)
+E/G#  4-x-2-1-0-0
+D/F#  2-x-0-2-3-x
+A/E   0-x-2-2-2-x
+------------------------------------------------------------
+ 
+[Intro]
+| D | % | % | % |
+ 
+ 
+[Verse]
+    D       E/D        A/C#  G/B    A
+My, my, at Waterloo Napoleon did surrender 
+   D         E/D           A/C# G/B   D/A      A       Bm
+Oh yeah, and I have met my destiny in quite a similar way 
+    Bm
+The history book on the shelf 
+Bm/A E/G#             |  A   G | D/F#  A/E |
+Is   always repeating itself 
+ 
+ 
+[Chorus]
+D                              G
+Waterloo - I was defeated, you won the war 
+A                                  D        |   A A A |
+Waterloo - Promise to love you for ever more 
+D                               G
+Waterloo - Couldn't escape if I wanted to 
+A                                D
+Waterloo - Knowing my fate is to be with you 
+                 A                            |  D  |  %  |  %  |  %  |
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo 
+ 
+ 
+[Verse]
+    D      E/D              A/C#     G/B      A
+My, my, I tried to hold you back but you were stronger 
+   D         E/D             A/C# G/B       D/A     A      Bm
+Oh yeah, and now it seems my only chance is giving up the fight 
+    Bm
+And how could I ever refuse 
+Bm/A E/G#                   |  A  G | D/F#  A/E |
+I    feel like I win when I lose 
+ 
+ 
+[Chorus]
+D                              G
+Waterloo - I was defeated, you won the war 
+A                                  D        |   A A A |
+Waterloo - Promise to love you for ever more 
+D                               G
+Waterloo - Couldn't escape if I wanted to 
+A                                D
+Waterloo - Knowing my fate is to be with you 
+                 A                            |  D  |  D  [ A/C# | ]
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo     (So    how ...)
+ 
+ 
+[Bridge]
+A/C# Bm
+So   how could I ever refuse 
+Bm/A E                       A
+I    feel like I win when I lose 
+ 
+ 
+[Chorus]
+D                               G
+Waterloo - Couldn't escape if I wanted to 
+A                                D
+Waterloo - Knowing my fate is to be with you 
+                 A                            |  D  |  %  |  %  |  %  |
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo          Oooh-ooh-ooh-ooh
+A                                D
+Waterloo - Knowing my fate is to be with you 
+                 A                            |  D  |  %  |  %  |  %  |
+Wo-wo-wo, wo-wo, Waterloo - Finally facing my Waterloo          Oooh-ooh-ooh-ooh
+ 
+(fade out over last 3 lines)
+ 
+ 
+-------------------------------------
+| Tabbed by Eduard Möllenkamp, 2003 |
+\___________________________________/

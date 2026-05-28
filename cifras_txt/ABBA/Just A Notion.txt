@@ -1,0 +1,123 @@
+Just A Notion Cifra
+ABBA
+
+Afinação: E A D G B E
+Tecla: C
+Capotraste: Fechar anúncio
+
+TAB:
+
+Song: Just A Notion
+Artist: ABBA
+Chord proposal: Mats Fagergren,2021
+ 
+Comment: Rather easy chords this time except maybe F#dim7 and D7/F#
+        E,A,D,G,B,e
+        ...........
+F#dim7  2,3,4,2,4,2
+D7/F#   2,x,0,2,1,2 or F#m7-5
+F#m7-5  2,x,2,2,1,0
+ 
+[intro]
+ 
+Dm G
+C C C C
+ 
+[chorus]
+ 
+C                     F
+Just a notion, that's all
+F      G             C
+Just a funny feeling deep inside (A-ha-ha)
+F                     G
+That you're out there waiting
+ 
+C                    F
+You're not sure I'm alone
+F       G             C
+And you wonder if I'm occupied (A-ha-ha)
+ 
+[middle]
+ 
+E
+So you're hesitating
+Am
+ Just a notion
+F               G            C
+ That you'll be walking up to me
+     Em/B             A7
+In a while and you'll smile and say hello
+A7           Dm                  G
+And we'll be dancing through the night
+        Dm              G               C
+Knowing everything from thereon must be right
+F                F#dim7
+  Just a notion
+F#dim7                     C      Em/B  A7
+But somehow I know I'm not wrong
+A7                               Dm           G
+There's something happening that I just can't explain
+     Dm              G
+If I try it's all in vain because it's...
+ 
+[chorus]
+ 
+C                        F
+   Just a notion, that's all
+F      G                   C
+Just a feeling that you´re watching me (A-ha-ha)
+F              G
+Every move I'm making
+C                   F
+  Am I reading your mind?
+F           G                  C
+'Cause it's almost like you're touching me (A-ha-ha)
+ 
+[middle 2]
+ 
+E
+ There is no mistaking
+Am
+ Just a notion
+F              G             C
+That you'll be walking up to me
+     Em/B             A7
+In a while and you'll smile and say hello
+A7           Dm                  G
+And we'll be dancing through the night
+        Dm               G              C
+Knowing everything from thereon must be right
+ 
+F              F#dim7
+Just a notion
+F#dim7                     C      Em/B   A7
+But somehow I know I'm not wrong
+A7                         Dm             G
+It is our destiny, there's nothing we can do
+     Dm             E
+And tonight is very special
+       Am               D7/F#     D
+It's a night for me and you
+ 
+ 
+[chorus outro]
+ 
+C
+(A-ha-ha, a-ha-ha, a-ha-ha)
+F               G
+(A-ha-ha, a-ha-ha)
+C
+(A-ha-ha, a-ha-ha, a-ha-ha)
+F               G
+(A-ha-ha, a-ha-ha)
+C                             F
+  I, I think it's more than a notion (A-ha-ha)
+     G                    C
+even more than a dream is about to come true
+ 
+F             G
+(A-ha-ha)
+C
+(A-ha-ha, a-ha-ha, a-ha-ha)
+F             G
+(A-ha-ha, a-ha-ha) ("fade out")

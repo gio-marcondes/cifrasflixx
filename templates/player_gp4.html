@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} - CifrasFlix Studio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/studio.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@latest/dist/alphaTab.js"></script>
+  <style>
+    .version-switcher {
+      margin-top: 10px;
+      display: grid;
+      gap: 4px;
+      max-width: 240px;
+    }
+    .version-switcher label {
+      font-size: 11px;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      opacity: .78;
+    }
+    .version-switcher select {
+      height: 34px;
+      border-radius: 10px;
+      border: 1px solid rgba(148, 163, 184, .4);
+      background: rgba(15, 23, 42, .14);
+      color: inherit;
+      padding: 0 10px;
+      font-size: 13px;
+      outline: none;
+    }
+  </style>
+</head>
+<body class="player-page">
+  <div class="player-shell">
+    <aside class="mixer-panel">
+      <div class="brand player-brand">
+        <a href="{{ url_for('home') }}" aria-label="CifrasFlix">
+          <span class="brand-mark">🎸</span>
+          <div>
+            <strong>CifrasFlix</strong>
+            <small>Studio</small>
+          </div>
+        </a>
+      </div>
+      <a id="playerBackLink" class="back-link" href="/artista/{{ artist_slug or slug }}">Voltar</a>
+      <div class="player-search-box">
+        <label for="playerSearchInput">Buscar cifra com FlixPlayer</label>
+        <input id="playerSearchInput" type="text" placeholder="Ex.: guns n roses" autocomplete="off">
+        <button id="discoverBtn" type="button" class="discover-btn" title="Carregar uma musica FlixPlayer aleatoria">Descubra</button>
+        <div id="playerSearchResults" class="player-search-results" hidden></div>
+      </div>
+      {% if versions %}
+      <div class="version-switcher">
+        <label for="versionSelect">Versoes</label>
+        <select id="versionSelect" aria-label="Selecionar outra versao">
+          {% for v in versions %}
+          <option value="{{ v.url }}" {% if v.url == current_version_url %}selected{% endif %}>{{ v.label }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endif %}
+      <div class="song-meta">
+        <p class="eyebrow">Tocando agora</p>
+        <h1>{{ title }}</h1>
+        <p>{{ artist }}</p>
+      </div>
+
+      <div class="panel-section">
+        <div class="section-title">
+          <span>Tracks</span>
+          <small id="trackCount">0</small>
+        </div>
+        <div id="tracks" class="tracks"></div>
+      </div>
+    </aside>
+
+    <main class="player-workspace">
+      <header class="player-topbar">
+        <div>
+          <p class="eyebrow">Partitura e tablatura</p>
+          <h2 id="scoreTitle">{{ title }}</h2>
+        </div>
+        <div class="top-actions">
+          <button id="themeBtn" title="Alternar tema">🌙 Escuro</button>
+          <button id="toggleFretBtn" title="Mostrar ou ocultar violao">Violao</button>
+          <button id="toggleKeyboardBtn" title="Mostrar ou ocultar teclado">Teclado</button>
+          <button id="toggleChordBtn" title="Mostrar ou ocultar acorde">Acorde</button>
+          <button id="perfBtn" title="Ajustar desempenho">⚡ Performance</button>
+          <button id="printBtn" title="Imprimir">Imprimir</button>
+          <button id="layoutBtn" title="Alternar layout">Layout</button>
+        </div>
+      </header>
+
+      <section class="transport transport-top">
+        <button id="playBtn" class="primary-control" aria-label="Play" title="Play / Pause">▶</button>
+        <button id="stopBtn" aria-label="Stop" title="Parar">⏹</button>
+        <span id="currentTime">0:00</span>
+        <input id="progressBar" type="range" min="0" max="100" value="0">
+        <span id="totalTime">0:00</span>
+
+        <label>
+          BPM
+          <input id="bpmInput" type="number" min="20" max="320" value="120">
+        </label>
+
+        <label>
+          Volume
+          <input id="masterVolume" type="range" min="0" max="1" step="0.01" value="1">
+        </label>
+
+        <button id="pitchDown" aria-label="Diminuir tom" title="Diminuir tom">♪−</button>
+        <span id="pitchLabel">0</span>
+        <button id="pitchUp" aria-label="Aumentar tom" title="Aumentar tom">♪+</button>
+        <button id="metronomeBtn" title="Metronomo">🎼</button>
+        <button id="loopBtn" title="Loop">🔁</button>
+      </section>
+
+      <section class="score-stage">
+        <div id="score" class="score"></div>
+      </section>
+
+      <section id="fretStage" class="fret-stage">
+        <div class="section-title">
+          <span>Violao</span>
+          <small id="fretStatus"></small>
+        </div>
+        <canvas id="fretboard" width="1280" height="230"></canvas>
+      </section>
+
+      <section id="keyboardStage" class="keyboard-stage">
+        <div class="section-title">
+          <span>Teclado</span>
+          <small></small>
+        </div>
+        <canvas id="pianoKeyboard" width="1280" height="150"></canvas>
+      </section>
+
+      <section id="chordStage" class="chord-stage">
+        <div id="chordReadout" class="chord-readout" aria-live="polite">Acorde atual: -</div>
+        <canvas id="chordDiagram" class="chord-diagram" width="320" height="420" aria-label="Desenho do acorde no violao"></canvas>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    window.CIFRASFLIX_PLAYER = {
+      fileId: {{ file_id | tojson }},
+      fileUrl: {{ file_url | tojson }},
+      fretboardUrl: {{ fretboard_url | tojson }},
+      title: {{ title | tojson }},
+      artist: {{ artist | tojson }},
+      soundFontLocal: {{ soundfont_url | tojson }},
+      soundFontFallback: "https://cdn.jsdelivr.net/npm/@coderline/alphatab@latest/dist/soundfont/sonivox.sf2",
+      soundFont: "https://cdn.jsdelivr.net/npm/@coderline/alphatab@latest/dist/soundfont/sonivox.sf2"
+    };
+
+    (function () {
+      const back = document.getElementById("playerBackLink");
+      if (!back) return;
+
+      back.addEventListener("click", function (event) {
+        try {
+          const ref = document.referrer || "";
+          const sameOrigin = ref.startsWith(window.location.origin);
+          if (window.history.length > 1 && sameOrigin) {
+            event.preventDefault();
+            window.history.back();
+          }
+        } catch (_) {}
+      });
+    })();
+
+    (function () {
+      const select = document.getElementById("versionSelect");
+      if (!select) return;
+      select.addEventListener("change", function () {
+        const value = (select.value || "").trim();
+        if (value) {
+          window.location.href = value;
+        }
+      });
+    })();
+  </script>
+  <script src="{{ url_for('static', filename='js/player.js') }}"></script>
+</body>
+</html>

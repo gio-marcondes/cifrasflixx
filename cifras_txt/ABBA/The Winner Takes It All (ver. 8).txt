@@ -1,0 +1,215 @@
+The Winner Takes It All Cifra
+ABBA
+
+Afinação: E A D G B E
+Tecla: F#
+Capotraste: Fechar anúncio
+
+TAB:
+
+Title: The Winner Takes It All
+Artist: ABBA
+ 
+Transcribed in friendly G, ABBA's recording is in F#, however.
+To match the key of the recording:
+- transpose this chord sheet -1 to F# or
+- tune down the guitar on step to Eb-Ab-Db-G-Bb-Eb or
+- transpose this chord sheet -2 to F and use a capo 1st fret
+- transpose this chord sheet -5 to D and use a capo 4th fret (my preferred option)
+ 
+Novice players may leave out the slash chords (see voicings below) and just
+play the regular shapes (E7 instead of E7/G#, D instead of D/F#  etc.).
+ 
+SPECIAL CHORDS
+ 
+G-shapes               D-shapes (transpose -5)     F-shapes (transpose -2) 
+        E-A-D-G-B-e            E-A-D-G-B-e                 E-A-D-G-B-e
+E7/G#   4-x-0-1-0-0    B7/D#   x-x-1-2-0-2         D7/F#   2-x-0-2-1-2
+D/F#    2-x-0-2-3-2    A/C#    x-4-2-2-2-0         C/E     x-x-2-0-1-0
+Am/E    0-x-2-2-1-0    Em/B    x-2-x-0-0-0         Gm/D    x-x-0-3-3-3
+ 
+ 
+[Intro] / [Chorus] and [Bridge]
+Transpose -5 to D + capo 4
+  D                D    F#7         Bm               Bm   B7/D#
+  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +
+e|----3-----2-----|0---------------|----0-----------|----------------|
+B|----3-----3-----|3-----3---------|----------3-----|2-----0---------|
+G|2---2-----2-----|2-----3---------|4---4-----4-----|4-----2---------|
+D|0---------------|------4---------|4---------------|4-----1---------|
+A|----------------|----------------|2---------------|2---------------|
+E|----------------|----------------|----------------|----------------|
+  Em                                A
+  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +
+e|----5-----3-----|2-----0---------|----------------|----------------|
+B|----0-----0-----|0-----0---------|----3-----2-----|0---------------|
+G|0---0-----0-----|0-----0---------|2---2-----2-----|2-----2---------|
+D|----------------|----------------|2---------------|2-----2---------|
+A|2---------------|----------------|0---------------|0-----0---------|
+E|0---------------|----------------|----------------|----------------|
+ 
+ 
+ 
+[Intro]
+| G | G B7 | Em | Em E7/G# |
+| Am | % | D | % |
+| G | G B7 | Em | Em E7/G# |
+| Am | % | D | % |
+ 
+ 
+[Verse]
+              G
+I don't wanna talk
+                   D/F#
+About things we've gone through
+                    Am/E
+Though it's hurting me
+              D
+Now it's history
+ 
+               G
+I've played all my cards
+                       D/F#
+And that's what you've done too
+                Am/E
+Nothing more to say
+               D
+No more ace to play
+ 
+ 
+[Chorus]
+                    G
+The winner takes it all
+    B7             Em
+The loser standing small
+  E7/G#         Am
+Beside the victory
+                D
+That's her destiny
+ 
+ 
+[Verse]
+              G
+I was in your arms
+             D/F#
+Thinking I belonged there
+                  Am/E
+I figured it made sense
+              D
+Building me a fence
+ 
+              G
+Building me a home
+                D/F#
+Thinking I'd be strong there
+            Am/E
+But I was a fool
+               D
+Playing by the rules
+ 
+ 
+[Bridge]
+                     G
+The gods may throw a dice
+      B7               Em
+Their minds as cold as ice
+    E7/G#   Am
+And someone way down here
+              D
+Loses someone dear
+ 
+ 
+[Chorus]
+                    G
+The winner takes it all
+    B7           Em
+The loser has to fall
+     E7/G#           Am
+It's simple and it's plain
+                D
+Why should I complain?
+ 
+ 
+[Verse]
+           G
+But tell me does she kiss
+               D/F#
+Like I used to kiss you?
+                 Am/E
+Does it feel the same
+                    D
+When she calls your name?
+ 
+              G
+Somewhere deep inside
+                D/F#
+You must know I miss you
+               Am/E
+But what can I say
+               D
+Rules must be obeyed
+ 
+ 
+[Bridge 2]
+           G
+The judges will decide
+    B7           Em
+The likes of me abide
+    E7/G#         Am
+Spectators of the show
+               D
+Always staying low
+ 
+ 
+[Bridge 3]
+                G
+The game is on again
+  B7         Em
+A lover or a friend
+  E7/G#          Am
+A big thing or a small
+                    D
+The winner takes it all
+ 
+ 
+[Verse]
+              G
+I don't wanna talk
+                D/F#
+If it makes you feel sad
+            Am/E
+And I understand
+                        D
+You've come to shake my hand
+ 
+       G
+I apologize
+                D/F#
+If it makes you feel bad
+             Am/E
+Seeing me so tense
+             D
+No self-confidence, but you see …Z
+ 
+ 
+[Outro]
+ 
+                   | G | G B7 | Em | Em E7/G# |
+The winner takes it all
+   [ E7/G# ]        | Am | % | D | % |
+The winner takes it all ...
+ 
+G          B7 Em        Em E/G#
+ So the winner takes it a -all
+Am            D
+ And the loser has to fall
+G           B7  Em       Em E/G#
+ Throw a di-ice, cold as ice
+Am             D
+ Way down here, someone dear
+G           B7  Em      Em  E/G#
+ Takes it a-all, has to fall
+Am                     D
+ It seems plain to me ...
+ 
+(fade out over last lines)

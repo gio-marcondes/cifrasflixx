@@ -1,47 +1,141 @@
 @app.route("/albuns")
 def listar_albuns():
+    import os
+    import string
+    from urllib.parse import urlencode
+
+    pagina = max(1, int(request.args.get("p", 1)))
+    letra = (request.args.get("letra", "").strip() or "").upper()
+    busca = (request.args.get("q", "").strip() or "")
+    por_pagina = 40
+    offset = (pagina - 1) * por_pagina
+
+    letras_validas = set(string.ascii_uppercase)
+    if letra not in letras_validas:
+        letra = ""
+
     conn = sqlite3.connect(DB)
     c = conn.cursor()
 
-    c.execute("""
-        SELECT ar.id, ar.nome, ar.slug, COUNT(al.id) as total
+    where = ["1=1", "COALESCE(TRIM(al.capa), '') <> ''"]
+    params = []
+
+    if letra:
+        where.append("UPPER(SUBSTR(ar.nome, 1, 1)) = ?")
+        params.append(letra)
+
+    if busca:
+        where.append("ar.nome LIKE ? COLLATE NOCASE")
+        params.append(f"%{busca}%")
+
+    where_sql = " AND ".join(where)
+
+    c.execute(
+        f"""
+        SELECT COUNT(*)
+        FROM (
+            SELECT ar.id
+            FROM artistas ar
+            JOIN albuns al ON al.artista_id = ar.id
+            WHERE {where_sql}
+            GROUP BY ar.id
+        ) base
+        """,
+        tuple(params),
+    )
+    total = c.fetchone()[0] or 0
+
+    c.execute(
+        f"""
+        SELECT ar.id, ar.nome, ar.slug, COUNT(al.id) AS total_albuns
         FROM artistas ar
-        LEFT JOIN albuns al ON al.artista_id = ar.id
-        GROUP BY ar.id
-        HAVING total > 0
-        ORDER BY ar.nome
-    """)
+        JOIN albuns al ON al.artista_id = ar.id
+        WHERE {where_sql}
+        GROUP BY ar.id, ar.nome, ar.slug
+        ORDER BY ar.nome COLLATE NOCASE ASC
+        LIMIT ? OFFSET ?
+        """,
+        tuple(params + [por_pagina, offset]),
+    )
     artistas = c.fetchall()
     conn.close()
 
-    import os
+    total_paginas = max(1, (total + por_pagina - 1) // por_pagina)
 
-    html = header(titulo="Álbuns por Artista") + """
-    <h3 style="margin-bottom:20px;">Artistas com Álbuns</h3>
-    <div class="albumGrid">
+    html = header(titulo="Albuns") + f"""
+    <section class="systemPanel" style="margin-top:20px;">
+        <div class="sectionHeader">
+            <div>
+                <p class="eyebrow">Biblioteca</p>
+                <h2>Artistas com albuns</h2>
+            </div>
+            <span class="pageInfo">Pagina {pagina} de {total_paginas}</span>
+        </div>
+
+        <form method="get" class="sortChips" style="gap:10px;align-items:center;flex-wrap:wrap;">
+            <input type="text" name="q" value="{busca}" placeholder="Buscar artista" style="min-width:220px;padding:8px 10px;border:1px solid #d1d5db;border-radius:8px;">
+            <input type="hidden" name="letra" value="{letra}">
+            <button type="submit" class="ordBtn active">Buscar</button>
+            <a href="/albuns" class="ordBtn">Limpar</a>
+        </form>
+
+        <div class="sortChips" style="margin-top:12px;flex-wrap:wrap;">
+            <a href="/albuns" class="ordBtn {'active' if not letra else ''}">Todos</a>
     """
 
-    for aid, nome, slug, total in artistas:
-        nome_safe = nome.replace(" ", "+")
-        nome_pasta = nome.lower().replace(" ", "_")
+    for l in string.ascii_uppercase:
+        qs = urlencode({"letra": l, "q": busca, "p": 1})
+        html += f'<a href="/albuns?{qs}" class="ordBtn {"active" if letra == l else ""}">{l}</a>'
 
-        mini_path = os.path.join("static", "fotos", "artista", nome_pasta, "mini.jpg")
+    html += """
+        </div>
 
-        if os.path.exists(mini_path):
-            foto_url = f"/static/fotos/artista/{nome_pasta}/mini.jpg"
-        else:
-            foto_url = f"https://ui-avatars.com/api/?name={nome_safe}&background=ddd&color=333&size=256"
+        <div class="albumGrid" style="margin-top:18px;">
+    """
 
-        html += f"""
-        <a href="/artista/{slug}/albuns" class="albumCard">
-            <img src="{foto_url}" class="albumCover">
-            <div class="albumTitle">{nome}</div>
-            <div class="albumYear">{total} álbuns</div>
-        </a>
-        """
+    if artistas:
+        for _, artista_nome, artista_slug, total_albuns in artistas:
+            nome_safe = artista_nome.replace(" ", "+")
+            nome_pasta = artista_nome.lower().replace(" ", "_")
+            mini_path = os.path.join("static", "fotos", "artista", nome_pasta, "mini.jpg")
 
-    html += "</div></main>"
+            if os.path.exists(mini_path):
+                foto_url = f"/static/fotos/artista/{nome_pasta}/mini.jpg"
+            else:
+                foto_url = f"https://ui-avatars.com/api/?name={nome_safe}&background=ddd&color=333&size=256"
+
+            html += f"""
+            <a href="/artista/{artista_slug}/albuns" class="albumCard">
+                <img src="{foto_url}" class="albumCover" alt="{artista_nome}">
+                <div class="albumTitle">{artista_nome}</div>
+                <div class="albumYear">{fmt_int(total_albuns)} albuns</div>
+            </a>
+            """
+    else:
+        html += '<p class="emptyState">Nenhum artista com albuns encontrado para os filtros informados.</p>'
+
+    html += "</div>"
+
+    html += '<nav class="pagination" style="margin-top:16px;">'
+    if pagina > 1:
+        prev_qs = urlencode({"p": pagina - 1, "letra": letra, "q": busca})
+        html += f'<a href="/albuns?{prev_qs}" class="pageBtn">Anterior</a>'
+
+    html += f'<span class="pageInfo">{fmt_int(total)} artistas</span>'
+
+    if pagina < total_paginas:
+        next_qs = urlencode({"p": pagina + 1, "letra": letra, "q": busca})
+        html += f'<a href="/albuns?{next_qs}" class="pageBtn">Proxima</a>'
+
+    html += "</nav></section></main>"
     return html
+
+
+def _album_cover_src(capa_url, album_id):
+    capa_txt = (capa_url or "").strip()
+    if capa_txt.lower().startswith(("http://", "https://")):
+        return capa_txt
+    return f"/capa_album/{album_id}"
 
 @app.route("/artista/<slug>/albuns")
 def artista_albuns(slug):
@@ -61,7 +155,7 @@ def artista_albuns(slug):
 
     # 🔥 buscar albuns do artista
     c.execute("""
-        SELECT id, nome, ano
+        SELECT id, nome, ano, capa
         FROM albuns
         WHERE artista_id=?
         ORDER BY ano
@@ -113,11 +207,12 @@ def artista_albuns(slug):
     # ==========================================
     # LISTA DE ÁLBUNS
     # ==========================================
-    for aid, nome_album, ano in albuns:
+    for aid, nome_album, ano, capa_url in albuns:
         ano=pegar_ano(ano)
+        cover_src = _album_cover_src(capa_url, aid)
         html += f"""
         <a href="/album/{aid}" class="albumCard">
-             <img src="/capa_album/{aid}" class="albumCover">
+             <img src="{cover_src}" class="albumCover" alt="{nome_album}">
             <div class="albumTitle">{nome_album}</div>
             <div class="albumYear">{ano or ""}</div>
         </a>
@@ -145,12 +240,35 @@ def preview():
 
 @app.route("/album/<int:album_id>")
 def ver_album(album_id):
+    def formatar_duracao(valor):
+        if valor in (None, ""):
+            return ""
+
+        texto = str(valor).strip()
+        if not texto:
+            return ""
+
+        if ":" in texto:
+            return texto
+
+        try:
+            total = int(float(texto))
+        except ValueError:
+            return ""
+
+        # Alguns provedores retornam em ms; outros em segundos.
+        if total >= 1000:
+            total = round(total / 1000)
+
+        minutos, segundos = divmod(max(0, total), 60)
+        return f"{minutos}:{segundos:02d}"
+
     conn = sqlite3.connect(DB, timeout=30)
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
 
     c.execute("""
-        SELECT al.nome, al.ano, al.capa, al.gravadora, al.descricao, al.pais, al.status,
+        SELECT al.nome, al.ano, al.capa, al.gravadora, al.descricao, al.pais, al.status, al.artista_id,
                ar.nome AS artista_nome, ar.slug AS artista_slug
         FROM albuns al
         JOIN artistas ar ON al.artista_id = ar.id
@@ -243,6 +361,15 @@ def ver_album(album_id):
         ORDER BY c.id
     """, (album_id,))
     faixas = c.fetchall()
+
+    c.execute("""
+        SELECT id, nome, ano, capa
+        FROM albuns
+        WHERE artista_id = ?
+        ORDER BY ano
+    """, (album["artista_id"],))
+    albuns_artista = c.fetchall()
+
     conn.close()
 
     ano = formatar_data(album["ano"])
@@ -252,12 +379,13 @@ def ver_album(album_id):
     descricao = album["descricao"] or "Descricao ainda nao cadastrada para este album."
 
     html = header(titulo=f"{album['nome']} - {album['artista_nome']}")
+    cover_src = _album_cover_src(album["capa"], album_id)
     html += f"""
     <section class="albumDetailHero">
         <a class="backBtn softBack" href="/artista/{album['artista_slug']}/albuns">Voltar para artista</a>
         <div class="albumDetailGrid">
             <div class="albumCoverPanel">
-                <img src="/capa_album/{album_id}" alt="{album['nome']}">
+                <img src="{cover_src}" alt="{album['nome']}">
             </div>
             <div class="albumDetailCopy">
                 <p class="eyebrow">Album</p>
@@ -294,15 +422,12 @@ def ver_album(album_id):
 
     for numero, f in enumerate(faixas, start=1):
         tem_cifra = bool(f["uid"] and f["artista_slug_musica"])
+        duracao_fmt = formatar_duracao(f["duracao"])
         tom_cifra = ""
         if tem_cifra:
             tom_cifra = f["tom_cifra"] or extrair_tom_da_cifra(f["conteudo_cifra"] or "") or ""
 
         info_extra = ""
-        if f["duracao"]:
-            info_extra += f'<span class="track-duration">{f["duracao"]}</span>'
-        if tom_cifra:
-            info_extra += f'<span class="trackKey">Tom {tom_cifra}</span>'
         if f["compositor"]:
             info_extra += f'<small>{f["compositor"]}</small>'
 
@@ -321,15 +446,22 @@ def ver_album(album_id):
         if tem_cifra:
             link_cifra = f"/artista/{f['artista_slug_musica']}/{f['uid']}"
             titulo_html = f'<a class="trackMainLink" href="{link_cifra}">{f["titulo"]}</a>'
+            flixplay_btn = ""
+            if _has_flixplayer_tab(album["artista_nome"], f["titulo"]):
+                flixplay_btn = f'<a class="trackActionBtn playerBtn" href="/tocador-gp4/{f["artista_slug_musica"]}/{f["uid"]}" title="Abrir no FlixPlayer">FlixPlay</a>'
+
+            tom_btn = f'<span class="trackActionBtn tomBtn" title="Tom da cifra">Tom: {tom_cifra}</span>' if tom_cifra else ''
             actions = (
+                f'{tom_btn}'
                 f'<a class="trackActionBtn cifraBtn" href="{link_cifra}" title="Ver cifra">Cifra</a>'
                 f'<a class="trackActionBtn letraBtn" href="{letra_link}" title="Ver letra">Letra</a>'
+                f'{flixplay_btn}'
             )
-            status = f'<span class="trackStatus hasCifra">Cifra{f" - Tom {tom_cifra}" if tom_cifra else ""}</span>'
         else:
             titulo_html = f'<a class="trackMainLink only-lyric" href="{letra_link}">{f["titulo"]}</a>'
             actions = f'<a class="trackActionBtn letraBtn only-lyric" href="{letra_link}" title="Ver letra">Letra</a>'
-            status = '<span class="trackStatus lyricOnly">Letra</span>'
+
+        duracao_col = f'Duracao: {duracao_fmt}' if duracao_fmt else 'Duracao: -'
 
         html += f"""
         <div class="track-row albumTrackRow">
@@ -338,13 +470,43 @@ def ver_album(album_id):
                 {titulo_html}
                 <div class="trackSubline">{info_extra}</div>
             </div>
+            <div class="track-duration-col">{duracao_col}</div>
             <div class="track-player">{player_html}</div>
-            <div class="trackActions">{status}{actions}</div>
+            <div class="trackActions">{actions}</div>
         </div>
         """
 
-    html += """
+    html += "</section>"
+
+    if albuns_artista:
+        html += """
+    <section class="discographyPanel">
+        <div class="sectionHeader">
+            <div>
+                <p class="eyebrow">Discografia</p>
+                <h2>Albuns</h2>
+            </div>
+        </div>
+        <div class="albumGrid">
+        """
+
+        for aid, nome_album, ano_album, capa_url in albuns_artista:
+            ano_fmt = str(ano_album)[:4] if ano_album else ""
+            capa_src = _album_cover_src(capa_url, aid)
+            html += f"""
+            <a href="/album/{aid}" class="albumCard">
+                <img src="{capa_src}" class="albumCover" alt="{nome_album}">
+                <div class="albumTitle">{nome_album}</div>
+                <div class="albumYear">{ano_fmt}</div>
+            </a>
+            """
+
+        html += """
+        </div>
     </section>
+        """
+
+    html += """
     <script>
     let currentAudio = null
     let currentBtn = null

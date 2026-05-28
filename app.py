@@ -15,6 +15,7 @@ MODULES = (
     "layout.py",
     "ui_helpers.py",
     "routes_main.py",
+    "routes_player.py",
     "routes_admin.py",
     "routes_albums.py",
     "routes_lyrics.py",
@@ -28,4 +29,4 @@ for module_name in MODULES:
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=True)

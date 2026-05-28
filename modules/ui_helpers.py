@@ -20,6 +20,31 @@ def db_rows(cursor, sql, params=()):
         return []
 
 
+_FLIXPLAY_COUNT_CACHE = {"dir_mtime_ns": None, "value": 0}
+
+
+def contar_arquivos_guitarpro():
+    from pathlib import Path
+
+    base_dir = Path("static") / "guitarpro"
+    extensoes = {".gp", ".gp3", ".gp4", ".gp5", ".gpx"}
+    if not base_dir.exists():
+        return 0
+
+    global _FLIXPLAY_COUNT_CACHE
+    dir_mtime_ns = base_dir.stat().st_mtime_ns
+    if _FLIXPLAY_COUNT_CACHE["dir_mtime_ns"] == dir_mtime_ns:
+        return _FLIXPLAY_COUNT_CACHE["value"]
+
+    total = 0
+    for arquivo in base_dir.iterdir():
+        if arquivo.is_file() and arquivo.suffix.lower() in extensoes:
+            total += 1
+
+    _FLIXPLAY_COUNT_CACHE = {"dir_mtime_ns": dir_mtime_ns, "value": total}
+    return total
+
+
 def home_dashboard_data(cursor):
     total_artistas = db_scalar(cursor, "SELECT COUNT(*) FROM artistas")
     total_musicas = db_scalar(cursor, "SELECT COUNT(*) FROM musicas")

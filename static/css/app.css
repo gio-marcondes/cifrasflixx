@@ -267,6 +267,48 @@ pre{
     transition:.2s;
     font-size:14px;
 }
+.cifraBox {
+    font-family: var(--cifra-font-family, Georgia, 'Times New Roman', serif);
+    font-size: var(--cifra-font-size, 15px);
+    line-height: var(--cifra-line-height, 1.6);
+    letter-spacing: var(--cifra-letter-spacing, 0px);
+    color: var(--cifra-text-color, #111827);
+}
+.chord {
+    color: var(--cifra-chord-color, #ff7a00);
+    font-size: var(--cifra-chord-size, 18px);
+}
+.chord-match {
+    background: var(--cifra-chord-highlight, #fff2cc);
+    border-radius:4px;
+    box-shadow:0 0 0 1px rgba(180,83,9,0.2) inset;
+}
+.readerControlGrid {
+    display: grid;
+    gap: 10px;
+}
+.readerControlRow select,
+.readerControlRow input[type="color"] {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 0 8px;
+}
+.readerControlRow input[type="color"] {
+    padding: 2px;
+}
+.readerControlRow input[type="range"] {
+    width: 100%;
+}
+.readerControlValue {
+    min-width: 46px;
+    text-align: right;
+    font-weight: 700;
+    color: #111827;
+    font-size: 12px;
+}
 
 .ctrlBtn:hover{
     background:#e50914;
@@ -1556,10 +1598,62 @@ body.dark-mode .heroCopy {
     flex-wrap: wrap;
 }
 
+.viewModeBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0 0 12px;
+}
+
+.viewModeLabel {
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.viewModeBtns {
+    display: inline-flex;
+    gap: 6px;
+}
+
+.viewModeBtn {
+    min-width: 34px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--muted);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.viewModeBtn.active {
+    color: #111827;
+    border-color: var(--accent);
+    background: #fff7ed;
+}
+
+.viewModeBtn:hover {
+    border-color: var(--accent);
+}
+
 .artistMusicList {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+}
+
+.artistMusicList.cols-1 {
+    grid-template-columns: 1fr;
+}
+
+.artistMusicList.cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.artistMusicList.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .artistMusicList .artistTrackRow {
@@ -1573,6 +1667,87 @@ body.dark-mode .heroCopy {
     display: block;
     color: var(--text);
     font-weight: 700;
+}
+
+.artistMusicList.cols-2 + .centerActions,
+.artistMusicList.cols-3 + .centerActions {
+    margin-top: 16px;
+}
+
+.artistMusicList.cols-2 .artistTrackRow,
+.artistMusicList.cols-3 .artistTrackRow {
+    grid-template-columns: 42px minmax(0, 1fr) auto auto;
+    grid-template-areas:
+        "index title title title"
+        "views views key actions";
+    align-items: start;
+    gap: 8px;
+    padding: 12px;
+}
+
+.artistMusicList.cols-2 .artistTrackRow .musicIndex,
+.artistMusicList.cols-3 .artistTrackRow .musicIndex {
+    grid-area: index;
+    color: var(--muted);
+    font-weight: 700;
+}
+
+.artistMusicList.cols-2 .artistTrackRow .musicTitle,
+.artistMusicList.cols-3 .artistTrackRow .musicTitle {
+    grid-area: title;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: initial;
+    line-height: 1.35;
+}
+
+.artistMusicList.cols-2 .artistTrackRow .musicViews,
+.artistMusicList.cols-3 .artistTrackRow .musicViews {
+    grid-area: views;
+    color: var(--muted);
+    font-size: 13px;
+    align-self: center;
+    white-space: nowrap;
+}
+
+.artistMusicList.cols-2 .artistTrackRow .musicViews::before,
+.artistMusicList.cols-3 .artistTrackRow .musicViews::before {
+    content: "Views: ";
+    font-weight: 700;
+}
+
+.artistMusicList.cols-2 .artistTrackRow .musicKey,
+.artistMusicList.cols-3 .artistTrackRow .musicKey {
+    grid-area: key;
+    width: fit-content;
+    min-width: 70px;
+    align-self: center;
+    margin: 0;
+}
+
+.artistMusicList.cols-2 .artistTrackRow .musicKey::before,
+.artistMusicList.cols-3 .artistTrackRow .musicKey::before {
+    content: "Tom: ";
+    font-weight: 700;
+}
+
+.artistMusicList.cols-2 .artistTrackRow .artistTrackActions,
+.artistMusicList.cols-3 .artistTrackRow .artistTrackActions {
+    grid-area: actions;
+    justify-content: flex-start;
+    align-self: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
+
+.artistMusicList.cols-3 .artistTrackRow .trackActionBtn {
+    min-height: 30px;
+    padding: 0 8px;
+    font-size: 12px;
+}
+
+.artistMainPanel.compactGridMode .artistMusicHeader {
+    display: none;
 }
 
 .centerActions {
@@ -1629,10 +1804,18 @@ body.dark-mode .heroCopy {
 }
 
 .albumTrackRow {
-    grid-template-columns: 54px minmax(0, 1fr) 92px 220px;
+    grid-template-columns: 54px minmax(0, 1fr) 96px 78px 260px;
     border: 1px solid var(--border);
     background: #fff;
     margin-bottom: 8px;
+}
+
+.track-duration-col {
+    color: var(--muted);
+    font-size: 12px;
+    white-space: nowrap;
+    align-self: center;
+    justify-self: end;
 }
 
 .trackNumber {
@@ -1665,7 +1848,7 @@ body.dark-mode .heroCopy {
     align-items: center;
     justify-content: flex-end;
     gap: 8px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .trackStatus.hasCifra {
@@ -1703,14 +1886,22 @@ body.dark-mode .heroCopy {
     border-color: #bfdbfe;
 }
 
+.trackActionBtn.tomBtn {
+    color: var(--muted);
+    background: #f9fafb;
+    border-color: var(--border);
+    cursor: default;
+    white-space: nowrap;
+}
+
 .trackActionBtn:hover {
     filter: brightness(.98);
     transform: translateY(-1px);
 }
 
 .play-btn {
-    min-width: 68px;
-    padding: 8px 10px;
+    min-width: 60px;
+    padding: 8px 8px;
 }
 
 .play-btn.playing {
@@ -1900,7 +2091,7 @@ body.dark-mode .heroCopy {
 /* ===== Chord page controls ===== */
 .musicMetaGrid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 12px;
     margin-bottom: 16px;
 }
@@ -1927,20 +2118,6 @@ body.dark-mode .heroCopy {
     font-size: 18px;
 }
 
-.musicMetaCard.highlight {
-    background: #111827;
-    border-color: #111827;
-}
-
-.musicMetaCard.highlight span {
-    color: #fed7aa;
-}
-
-.musicMetaCard.highlight strong {
-    color: #fff;
-    font-size: 24px;
-}
-
 .transposePanel {
     display: grid;
     grid-template-columns: 44px 1fr 44px;
@@ -1948,11 +2125,25 @@ body.dark-mode .heroCopy {
     align-items: center;
 }
 
+.transposeStepCol {
+    display: grid;
+    gap: 6px;
+    justify-items: center;
+}
+
 .toneStep {
     min-width: 44px;
     height: 44px;
     padding: 0;
     font-size: 20px;
+}
+
+.toneUndoBtn {
+    min-width: 44px;
+    height: 32px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
 }
 
 .transposeState {
@@ -2089,6 +2280,7 @@ body.dark-mode .trackStatus {
         grid-template-columns: 42px minmax(0, 1fr);
     }
 
+    .track-duration-col,
     .track-player,
     .trackActions {
         grid-column: 2;
@@ -2116,6 +2308,17 @@ body.dark-mode .trackStatus {
 
     .musicListHeader {
         display: none;
+    }
+
+    .viewModeBar {
+        justify-content: flex-start;
+    }
+
+    .artistMusicList,
+    .artistMusicList.cols-1,
+    .artistMusicList.cols-2,
+    .artistMusicList.cols-3 {
+        grid-template-columns: 1fr;
     }
 
     .artistTrackRow {

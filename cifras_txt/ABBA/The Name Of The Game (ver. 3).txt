@@ -1,0 +1,262 @@
+The Name Of The Game Cifra
+ABBA
+
+Afinação: E A D G B E
+Capotraste: 2nd traste
+
+TAB:
+
+---------------------------------------------------------------------------
+                    The Name of the Game – ABBA
+---------------------------------------------------------------------------
+ 
+Written by: B. Andersson/B. Ulvaeus/S. Anderson
+From: "The Album" (1976)
+ 
+Tabbed by: maguri
+Tuning: Standard
+ 
+---------------------------------------------------------------------------
+ 
+capo: 2nd fret
+play: Em / G
+key: F#m / A
+tempo: ca. 76 bpm
+ 
+For original chords transpose this tab +2 to F#m.
+ 
+---------------------------------------------------------------------------
+ 
+[Chords]
+     E-A-D-G-B-e
+A5   x-0-2-2-x-0
+A/C# x-4-2-2-2-0
+C/D  x-x-0-0-1-0
+ 
+C    x-3-2-0-1-3
+D/C  x-3-x-2-3-2
+ 
+---------------------------------------------------------------------------
+ 
+[TAB - Riff] (intro / verse / interlude)
+  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +
+e|----------------|----------------|----------------|----------------|
+B|----------------|----------------|----------------|----3-2---------|
+G|----0-2--2------|----0-2--2------|----0-2--2------|----------------|
+D|2-4---------0-2-|--4---------0-2-|--4---------0-2-|----------------|
+A|----------2-----|----------2-----|----------2-----|----------------|
+E|----------------|----------------|----------------|----------------|
+ 
+[TAB - Chords] (intro / verse / interlude)
+             Asus4            Asus4            Asus4
+  Em      A5    Em         A5    Em         A5    Em    Em7 A
+  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +  
+e|0---0--0----0-0-|----0--0----0-0-|----0--0----0-0-|----0-0-----0---|
+B|0---0--0-x--3-0-|----0--0-x--3-0-|----0--0-x--3-0-|----3-2-----2---|
+G|0---0----x--2-0-|----0----x--2-0-|----0----x--2-0-|----0-2-----2---|
+D|2--------x--2---|2--------x--2---|2--------x--2-2-|----2-2---2-----|
+A|2---------0-0---|2---------0-0---|2---------0-0-2-|------0---0-----|
+E|0---------------|0---------------|0-------------0-|----------------|
+ 
+You might want to check out my GP version of this tab, so you can
+actually hear what is played:
+https://tabs.ultimate-guitar.com/a/abba/the_name_of_the_game_intro_guitar_pro.htm
+ 
+---------------------------------------------------------------------------
+ 
+[Intro]
+| Em  A5 Asus4 | Em  A5 Asus4 |
+  (riff)
+| Em  A5 Asus4 | Em Em7 A    |
+  (riff)
+ 
+[Verse]
+Em            A5   [ Asus4 Em ]
+I've seen you twice
+Em         A5   [ Asus4 Em ]
+In a short time
+Em     A5
+Only a week
+         Em     Em7 A
+Since we star - ted
+Em          A5  [ Asus4 Em ]
+It seems to me
+Em        A5  [ Asus4 Em ]
+For every time
+Em          A5
+I'm getting more
+     Em     Em7 A
+Open hear - ted
+ 
+ 
+[Bridge]
+Em          A/C#
+ I was an impossible case
+Bm                 Cmaj7
+ No one ever could reach me
+Em                 A/C#
+ But I think I can see in your face
+Bm                     Cmaj7
+ There's a lot you can teach me
+     Am7        C/D
+So I wanna know 
+ 
+ 
+[Chorus]
+                      | G  C |
+What's the name of the game?
+        D       D/C     | G  C | D  C |
+Does it mean anything to you?      (What's ...)
+                      | G  C |
+What's the name of the game?
+        D           D/C   G
+Can you feel it the way I do?
+ 
+ 
+[Link]
+B       Em
+Tell me please 
+         A/C#    D
+Cause I have to know
+      B       Em
+I'm a bashful child 
+  A/C#             C/D
+Beginning to grow
+ 
+ 
+[Middle 8]
+        G
+And you make me talk 
+        C/G
+And you make me feel
+        G
+And you make me show 
+         C  F/C C
+What I'm trying to conceal
+     G
+If I trust in you
+          C/G
+Would you let me down?
+          G
+Would you laugh at me
+     Em                   | F#m7  B7|
+If I said I care for you?
+          Cmaj7
+Could you feel the same way too?
+             C/D
+I wanna know ...  
+               [ Em ]
+The name of the game
+ 
+ 
+[Verse] instrumental
+| Em  A5 Asus4 | Em  A5 Asus4 |
+  (riff)
+| Em  A5 Asus4 | Em Em7 A    |
+  (riff)
+ 
+ 
+[Verse]
+Em        A5      [ Asus4 Em ]
+I have no friends
+Em        A5  [ Asus4 Em ]
+No one to see
+Em       A5      Em Em7 A
+And I am never invi-ted
+Em       A5   [ Asus4 Em ]
+Now I am here
+Em         A5  [ Asus4 Em ]
+Talking to you
+Em        A5      Em Em7 A
+No wonder I get exci-ted
+ 
+ 
+[Bridge]
+Em                  A/C#
+ Your smile and the sound of your voice
+Bm                   Cmaj7
+ And the way you see through me
+Em                  A/C#
+ Got a feeling, you give me no choice
+Bm                  Cmaj7
+ But it means a lot to me
+     Am7         C/D
+So I wanna know 
+ 
+ 
+[Chorus]
+                       G                     C
+What's the name of the game?
+                         (Your smile and the sound of your voice)
+        D       D/C      G                   C               D              [ C ]
+Does it mean anything to you?
+                          (Got a feeling you give me no choice but it means a lot)
+                       G                      C
+What's the name of the game?
+                          (Your smile and the sound of your voice)
+        D           D/C   G
+Can you feel it the way I do?
+ 
+ 
+[Link]
+B       Em
+Tell me please 
+         A/C#    D
+Cause I have to know
+      B       Em
+I'm a bashful child 
+  A/C#             C/D
+Beginning to grow
+ 
+ 
+[Middle 8]
+        G
+And you make me talk 
+        C/G
+And you make me feel
+        G
+And you make me show 
+         C  F/C C
+What I'm trying to conceal
+     G
+If I trust in you
+          C/G
+Would you let me down?
+          G
+Would you laugh at me
+     Em                   | F#m7  B7|
+If I said I care for you?
+          Cmaj7
+Could you feel the same way too?
+             C/D
+I wanna know ...  
+                    C/D
+Oh yes I wanna know
+ 
+ 
+[Chorus] (repeat and fade)
+                G               C
+The name of the game
+                    (I was an impossible case)
+        D       D/C      G                   C               D              [ C ]
+Does it mean anything to you?
+                          (But I think I can see in your face and it means a lot)
+                       G                      C
+What's the name of the game?
+                          (Your smile and the sound of your voice)
+        D           D/C   G                   C               D             [ C ]
+Can you feel it the way I do?
+                          (Got a feeling you give me no choice but it means a lot)
+ 
+                       G              C
+What's the name of the game?
+                          (I was an impossible case)
+        D       D/C      G                   C               D              [ C ]
+Does it mean anything to you?
+                          (But I think I can see in your face and it means a lot)
+                       G                      C
+What's the name of the game?
+                          (Your smile and the sound of your voice)
+        D           D/C   G                   C               D             [ C ]
+Can you feel it the way I do?
+                          (Got a feeling you give me no choice but it means a lot)
