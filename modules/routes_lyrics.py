@@ -319,7 +319,9 @@ def procura_letra(artista_slug, musica_slug):
     # ✅ se achou no banco
     if row and row["letra_original"]:
         conn.close()
-        return row["letra_original"], row["letra_traduzida"]
+        letra_original = row["letra_original"].replace("\n", "<br>") if row["letra_original"] else None
+        letra_traduzida = row["letra_traduzida"].replace("\n", "<br>") if row["letra_traduzida"] else None
+        return letra_original, letra_traduzida
 
     # 🔥 1.1 fallback por título normalizado (quando cancao_slug diverge)
     titulo_guess = (musica_slug or "").replace("-", " ").strip().lower()
@@ -337,7 +339,9 @@ def procura_letra(artista_slug, musica_slug):
         row = cur.fetchone()
         if row and row["letra_original"]:
             conn.close()
-            return row["letra_original"], row["letra_traduzida"]
+            letra_original = row["letra_original"].replace("\n", "<br>") if row["letra_original"] else None
+            letra_traduzida = row["letra_traduzida"].replace("\n", "<br>") if row["letra_traduzida"] else None
+            return letra_original, letra_traduzida
 
     # 🔥 2. se não achou → busca no site
     letra_html, letra_traduzida, titulo_traduzido = buscar_letra_html(artista_slug, musica_slug)

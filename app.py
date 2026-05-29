@@ -9,6 +9,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 MODULE_DIR = BASE_DIR / "modules"
+app = None
 
 MODULES = (
     "config.py",
@@ -16,6 +17,7 @@ MODULES = (
     "ui_helpers.py",
     "routes_main.py",
     "routes_player.py",
+    "routes_separador.py",
     "routes_admin.py",
     "routes_albums.py",
     "routes_lyrics.py",
@@ -29,4 +31,4 @@ for module_name in MODULES:
 
 
 if __name__ == "__main__":
-    app.run(debug=True, use_reloader=True)
+    app.run(debug=True, use_reloader=False)

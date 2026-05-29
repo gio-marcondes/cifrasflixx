@@ -1,0 +1,8 @@
+Flask
+requests
+beautifulsoup4
+demucs
+torch
+torchaudio
+librosa
+numpy

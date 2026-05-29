@@ -93,6 +93,7 @@ def home_dashboard_data(cursor):
         ("Discografia", "Albuns, faixas, capas e previews.", "/albuns", "Ver albuns"),
         ("Favoritos", "Musicas separadas para voltar rapido.", "/favoritos", "Ver favoritos"),
         ("Importador TXT", "Carrega cifras da pasta cifras_txt.", "/importar", "Importar"),
+        ("Separador de audio", "Escolha uma MP3 e abra as faixas em um player dedicado.", "/separar-audio", "Abrir"),
         ("Capas e fotos", "Atualize imagens de artistas.", "/atualizarfoto", "Atualizar"),
         ("MusicBrainz", "Busque albuns e edicoes externas.", "/mb_album", "Abrir modulo"),
     ]

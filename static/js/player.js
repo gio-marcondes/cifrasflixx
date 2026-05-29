@@ -981,9 +981,34 @@ function renderTracks(score) {
     mute.classList.toggle("is-active", !!track.isMute);
     mute.onclick = (event) => {
       event.stopPropagation();
-      track.isMute = !track.isMute;
-      api.changeTrackMute(track, track.isMute);
-      mute.classList.toggle("is-active", track.isMute);
+      // Fade effect duration in ms
+      const fadeDuration = 200;
+      const steps = 20;
+      const stepTime = fadeDuration / steps;
+      let currentStep = 0;
+      let startVolume = track.isMute ? 0 : 1;
+      let endVolume = track.isMute ? 1 : 0;
+      // If already fading, skip
+      if (track._fadeTimeout) {
+        clearTimeout(track._fadeTimeout);
+      }
+      function fadeStep() {
+        currentStep++;
+        const progress = currentStep / steps;
+        const newVolume = startVolume + (endVolume - startVolume) * progress;
+        api.changeTrackVolume(track, newVolume);
+        if (currentStep < steps) {
+          track._fadeTimeout = setTimeout(fadeStep, stepTime);
+        } else {
+          // Finalize
+          api.changeTrackVolume(track, endVolume);
+          track.isMute = !track.isMute;
+          api.changeTrackMute(track, track.isMute);
+          mute.classList.toggle("is-active", track.isMute);
+          track._fadeTimeout = null;
+        }
+      }
+      fadeStep();
     };
 
     const solo = document.createElement("button");
